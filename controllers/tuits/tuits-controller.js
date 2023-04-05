@@ -43,7 +43,7 @@ const deleteTuit = async (req, res) => {
 
     // tuits = tuits.filter((t) =>
     //     t._id !== tuitdIdToDelete);
-    res.sendStatus(status);
+    res.sendStatus(204);
 }
 
 export default (app) => {
